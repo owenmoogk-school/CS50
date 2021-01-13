@@ -1,14 +1,10 @@
 def getValidInput():
     result = ''
     while True:
-        print("Enter height:")
-        result = input()
+        result = input("Enter height:")
         if result.isdigit():
             break
-        else:
-            pass
     return (int(result))
-
 
 height = getValidInput()
 
