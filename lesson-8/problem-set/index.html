@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+	<title>Trivia</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div id="header">
+		<h1>Trivia!</h1>
+	</div>
+	<div id="main">
+		<h3>Part 1: Multiple Choice</h3>
+		<hr>
+		<h5>What is the approximate ration of people to sheep in New Zealand?</h5>
+		<button onclick="multipleChoiceSubmit(this)">6 people 1 sheep</button>
+		<button class='correct' onclick="multipleChoiceSubmit(this)">3 people 1 sheep</button>
+		<button onclick="multipleChoiceSubmit(this)">1 person 1 sheep</button>
+		<br><br>
+		<h3>Part 2: Free Response</h3>
+		<hr>
+		<h5>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely.</h5>
+		<input type="text" id='countryInput'>
+		<button onclick='checkCountry()' id="countryAnswerButton">Check Answer</button>
+	</div>
+</body>
+<script src="index.js"></script>
+</html>

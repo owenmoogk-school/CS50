@@ -1,0 +1,41 @@
+*{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#header{
+	background-color: blue;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 200px;
+}
+
+#main{
+	width: 85%;
+	margin: auto;
+}
+
+body{
+	margin: 0;
+}
+
+button{
+	outline: none;
+	border: none;
+	background-color: lightblue;
+	height: 30px;
+	border-radius: 5px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.failed{
+	background-color: red;
+}
+
+.accepted{
+	background-color: greenyellow;
+}
